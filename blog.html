@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="blog.css">
+    </head>
+    <body>
+        <a href="#login" class="login">Login</a>
+        <a href="#addpost" class="addpost">Add Post</a>
+        <div id="login" class="login-form">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form action="" class="field-container">
+                    <input type="text" name="username" placeholder="Username" class="login-field" autocomplete="off" required>
+                    <input type="password" name="password" placeholder="Password" class="login-field" required>
+                    <input type="submit" value="Login" class="login-submit">
+                </form>
+            </div>
+        </div>
+        <div id="addpost" class="post-form">
+            <div class="post-container">
+                <h2>Post</h2>
+                <form action="" class="post-field-container">
+                    <input type="text" name="title" placeholder="Title" class="title-field" autocomplete="off" required>
+                    <textarea name="blogpost" id="blogpost" placeholder="Whats on your mind?" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Login" class="login-submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
